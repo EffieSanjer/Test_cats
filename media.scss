@@ -1,0 +1,107 @@
+@media screen and (max-width: 1190px){
+    main,footer{
+        max-width: 100%;
+        padding: 0 2%;
+        box-sizing: border-box;
+        height: max-content;
+    }
+    header, .main-container {  max-width: 100%  }
+    .header-container{ 
+        width: 100%;
+        padding: 40px 2%;
+    }
+    .like:hover{ opacity: 0.5;}
+
+    .cards-container{ 
+        width: 100%;
+        justify-content: space-around; 
+    }
+
+    .scroll-up{  right: 4%  }
+
+    .footer-container {
+        padding: 55px 7% 92px;
+        width: 100%;
+        align-items: flex-start;
+        height: max-content;
+        > div {	width: 50%  }
+        > form {
+            width: 50%;
+            justify-content: flex-end;
+            align-content: flex-end;
+            padding-left: 0;
+            input{
+                margin-bottom: 10px;
+                width: 75%;
+            }
+            button {  order: 1; width: 75%;  }
+            .checkbox-container{  
+                width: 75%;
+                padding: 5px 0 25px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 950px){
+    main, .header-container{  
+        padding-inline: 6%;  
+        .fa-bars{  display: block;  }
+    }
+    .menu, .phone-panel{  display: none  }
+    .footer-header{  font-size: 40px  }
+    .footer-text{  font-size: 24px  }
+    .footer-container > form{
+        > input, button, div{  width: 85%  }
+        .checkbox-container{  width: 85%  }
+    }
+    .scroll-up{ 
+        width: 55px;
+        height: 55px;
+    }
+}
+
+@media screen and (max-width: 680px){
+    .mobile-menu{  width: 55vw; }
+    .footer-container{  
+        flex-wrap: wrap;
+        justify-content: center;
+        > form{
+            width: 100%;  
+            margin-top: 40px;
+            justify-content: center;
+        }
+        div{  
+            width: 100%;  
+            text-align: center;
+        }  
+    }
+}
+
+@media screen and (max-width: 450px){
+    .mobile-menu{  width: 100vw;  }
+    .sorting {
+        p{
+            width: 100%;
+            margin: 10px 0;
+        }
+    }
+    .card{  
+        width: 100%;
+        position: relative;
+        height: max-content;
+        .discount-like, .only-like{  padding-inline: 4%  }
+        img {  height: 50%;  }  
+        .card-text{
+            p{  
+                &:first-child{  width: 10%  }
+                &:nth-child(2){  width: 90%  }
+                width: 50%;
+                justify-content: center;
+                padding: 10px 0;
+            }
+        }
+    }
+    .show-more{  width: 80%  }
+    .footer-container {  padding-inline: 5%  }
+}

@@ -1,0 +1,160 @@
+@media screen and (max-width: 1190px) {
+  main, footer {
+    max-width: 100%;
+    padding: 0 2%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  header, .main-container {
+    max-width: 100%;
+  }
+  .header-container {
+    width: 100%;
+    padding: 40px 2%;
+  }
+  .like:hover {
+    opacity: 0.5;
+  }
+  .cards-container {
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .scroll-up {
+    right: 4%;
+  }
+  .footer-container {
+    padding: 55px 7% 92px;
+    width: 100%;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .footer-container > div {
+    width: 50%;
+  }
+  .footer-container > form {
+    width: 50%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -ms-flex-line-pack: end;
+        align-content: flex-end;
+    padding-left: 0;
+  }
+  .footer-container > form input {
+    margin-bottom: 10px;
+    width: 75%;
+  }
+  .footer-container > form button {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 75%;
+  }
+  .footer-container > form .checkbox-container {
+    width: 75%;
+    padding: 5px 0 25px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  main, .header-container {
+    padding-inline: 6%;
+  }
+  main .fa-bars, .header-container .fa-bars {
+    display: block;
+  }
+  .menu, .phone-panel {
+    display: none;
+  }
+  .footer-header {
+    font-size: 40px;
+  }
+  .footer-text {
+    font-size: 24px;
+  }
+  .footer-container > form > input, .footer-container > form button, .footer-container > form div {
+    width: 85%;
+  }
+  .footer-container > form .checkbox-container {
+    width: 85%;
+  }
+  .scroll-up {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .mobile-menu {
+    width: 55vw;
+  }
+  .footer-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer-container > form {
+    width: 100%;
+    margin-top: 40px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer-container div {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .mobile-menu {
+    width: 100vw;
+  }
+  .sorting p {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .card {
+    width: 100%;
+    position: relative;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .card .discount-like, .card .only-like {
+    padding-inline: 4%;
+  }
+  .card img {
+    height: 50%;
+  }
+  .card .card-text p {
+    width: 50%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 10px 0;
+  }
+  .card .card-text p:first-child {
+    width: 10%;
+  }
+  .card .card-text p:nth-child(2) {
+    width: 90%;
+  }
+  .show-more {
+    width: 80%;
+  }
+  .footer-container {
+    padding-inline: 5%;
+  }
+}
+/*# sourceMappingURL=media.css.map */
